@@ -1,4 +1,4 @@
-package ru.synergyitacademy;
+package ru.synergyitacademy.lesson1;
 
 public class Launcher {
 
