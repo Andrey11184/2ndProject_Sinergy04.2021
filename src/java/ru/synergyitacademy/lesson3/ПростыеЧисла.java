@@ -3,14 +3,14 @@ package ru.synergyitacademy.lesson3;
 public class ПростыеЧисла {
     public static void main(String[] args) {
         int i, j;
-        boolean num;
+        boolean flag;
         for (i = 1; i < 1000; i++) {
-            num = true;
+            flag = true;
             for (j = 2; j <= i / j; j++)
                 if ((i % j) == 0) {
-                    num = false;
+                    flag = false;
                 }
-            if (num) {
+            if (flag) {
                 System.out.println(i);
             }
         }
